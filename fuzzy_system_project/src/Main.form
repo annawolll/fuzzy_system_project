@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="591" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="85011">
+        <constraints>
+          <grid row="1" column="2" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="beede" class="javax.swing.JLabel" binding="description2">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="and the program will estimate"/>
+        </properties>
+      </component>
+      <component id="24fe6" class="javax.swing.JLabel" binding="description3">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="the probability of COVID-19 virus infection."/>
+        </properties>
+      </component>
+      <component id="62f7a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter the intensity of your symptoms"/>
+        </properties>
+      </component>
+      <component id="12c5" class="javax.swing.JLabel" binding="coughing_label">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Coughing intensity"/>
+        </properties>
+      </component>
+      <component id="83560" class="javax.swing.JSlider" binding="coughingSlider">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <majorTickSpacing value="10"/>
+          <minorTickSpacing value="1"/>
+          <paintLabels value="true"/>
+          <paintTicks value="true"/>
+        </properties>
+      </component>
+      <component id="dd9ce" class="javax.swing.JLabel" binding="feverLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fever intensity"/>
+        </properties>
+      </component>
+      <component id="d6497" class="javax.swing.JSlider" binding="feverSlider">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <majorTickSpacing value="10"/>
+          <minorTickSpacing value="1"/>
+          <paintLabels value="true"/>
+          <paintTicks value="true"/>
+        </properties>
+      </component>
+      <component id="bfe53" class="javax.swing.JLabel" binding="breathingLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Difficulty breathing"/>
+        </properties>
+      </component>
+      <component id="8501d" class="javax.swing.JButton" binding="calculateTheRiskButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calculate the risk"/>
+        </properties>
+      </component>
+      <component id="32a8e" class="javax.swing.JSlider" binding="breathingSlider">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <majorTickSpacing value="10"/>
+          <minorTickSpacing value="1"/>
+          <paintLabels value="true"/>
+          <paintTicks value="true"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
